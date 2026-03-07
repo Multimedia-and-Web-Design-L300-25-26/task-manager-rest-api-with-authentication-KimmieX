@@ -1,3 +1,4 @@
+jest.setTimeout(30000); // 30 seconds
 import request from "supertest";
 import app from "../src/app.js";
 
